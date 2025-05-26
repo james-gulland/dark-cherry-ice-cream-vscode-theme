@@ -1,0 +1,21 @@
+{
+  "name": "bangkok-at-dawn",
+  "displayName": "Bangkok at Dawn",
+  "description": "Theme for Bangkok at Dawn",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Bangkok at Dawn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Bangkok at Dawn-color-theme.json"
+      }
+    ]
+  }
+}
