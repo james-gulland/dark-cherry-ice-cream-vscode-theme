@@ -1,6 +1,3 @@
-// TODO: editor selected line background colour
-// CSS Variable
-
 {
 	"name": "Bangkok at Dawn",
     "semanticHighlighting": false,
@@ -19,7 +16,7 @@
         "dropdown.background": "#1d1921",
         "dropdown.listBackground": "#7a6483",
         "editor.background": "#1d1921",
-		"editor.foreground": "#baa4ed",
+		"editor.foreground": "#D2C7E1",
         "editor.lineHighlightBackground": "#362d3d80",
         "editor.selectionBackground": "#362d3d",
         "editorBracketHighlight.foreground1": "#d2c7e1",
@@ -34,8 +31,11 @@
         "editorGroupHeader.noTabsBackground": "#362d3d",
         "editorGutter.modifiedBackground": "#baa4ed",
         "editorGutter.addedBackground": "#baa4ed",
+        "editorLightBulb.foreground": "#FFCB6B",
         "editorLineNumber.foreground": "#7a6483",
         "editorLineNumber.activeForeground": "#baa4ed",
+        "editorHoverWidget.background": "#362d3d",
+        "editorHoverWidget.foreground": "#baa4ed",
         "focusBorder": "#baa4ed",
         "foreground": "#7a6483",
         "icon.foreground": "#baa4ed",
@@ -46,15 +46,15 @@
         "inputOption.activeForeground": "#fff",
         "inputOption.activeBackground": "#1d1921",
         "inputOption.hoverBackground": "#362d3d",
-        "list.activeSelectionBackground": "#7a6483",
+        "list.activeSelectionBackground": "#362d3d",
         "list.hoverBackground": "#362d3d",
         "list.activeSelectionForeground": "#d2c7e1",
         "list.inactiveSelectionBackground": "#362d3d",
-        "list.inactiveSelectionForeground": "#7a6483",
+        "list.inactiveSelectionForeground": "#d2c7e1",
         "list.inactiveSelectionIconForeground": "#7a6483",
-        "panelTitle.activeForeground": "#f9f8fb",
+        "panelTitle.activeForeground": "#d2c7e1",
         "panelTitle.inactiveForeground": "#7a6483",
-        "panelTitle.activeBorder": "#baa4ed",
+        "panelTitle.activeBorder":  "#baa4ed",
         "panel.border": "#362d3d",
         "pickerGroup.foreground": "#7a6483",
         "scrollbarSlider.background": "#7a6483",
@@ -62,14 +62,17 @@
         "scrollbarSlider.hoverBackground": "#baa4ed",
         "selection.background": "#baa4ed",
 		"sideBarTitle.foreground": "#baa4ed",
-        "sideBarSectionHeader.foreground": "#baa4ed",
+        "sideBarSectionHeader.foreground": "#D2C7E1",
         "sideBarSectionHeader.background": "#1d1921",
         "sideBar.background": "#1d1921",
+        "sideBar.foreground": "#D2C7E1",
         "sideBar.border": "#362d3d",
         "sideBarStickyScroll.border": "#7a6483",
         "sideBar.dropBackground": "#baa4ed",
         "statusBar.background": "#362d3d",
         "statusBar.foreground": "#baa4ed",
+        "statusBarItem.hoverForeground": "#baa4ed",
+        "statusBarItem.hoverBackground": "#362d3d",
         "tab.activeBackground": "#1d1921",
         "tab.activeForeground": "#baa4ed",
         "tab.activeBorderTop": "#baa4ed",
@@ -77,7 +80,9 @@
         "tab.border": "#362d3d",
         "textLink.activeForeground": "#d2c7e1",
         "textLink.foreground": "#d2c7e1",
+        "titleBar.activeForeground": "#d2c7e1",
         "titleBar.activeBackground": "#362d3d",
+        "toolbar.hoverBackground": "#1d1921",
         "quickInput.background": "#1d1921", 
         "quickInput.foreground": "#7a6483",
         "quickInputList.focusForeground": "#D2C7E1",
@@ -99,6 +104,7 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
+                "variable.other.readwrite",
 				"string constant.other.placeholder",
                 "meta.import",
 			],
@@ -164,7 +170,7 @@
                 "punctuation.section.embedded",
                 "punctuation.section.embedded.begin",
                 "punctuation.section.embedded.end",
-                "punctuation.terminator.statement.tsx",
+                "punctuation.terminator.statement.ts.tsx",
 				"punctuation.separator.inheritance.php",
                 "punctuation.brackets",
 				"punctuation.comma",
@@ -183,10 +189,9 @@
                 "meta.tag",             
                 "meta.tag.attributes.js.jsx",
                 "meta.tag.js.jsx",
-                "meta.var.expr.tsx",
-                "source.tsx",
+                "meta.var.expr.ts.tsx",
+                "source.ts.tsx",
                 "source.js.jsx",
-                "source.js",
                 "meta.function.js",
                 "meta.parameters.js",
                 "punctuation.definition.parameters.js"
@@ -214,14 +219,23 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#e8a5e4"
+                "foreground": "#96d0bb"
+                // "foreground": "#e8a5e4"
 			}
 		},
+        {
+            "name": "Boolean False",
+            "scope": [
+                "constant.language.boolean.false"
+            ],
+            "settings": {
+                "foreground": "#f36c6c"
+            }
+        },
 		{
 			"name": "Function, Special Method",
 			"scope": [
@@ -283,28 +297,30 @@
 		},
 		
 		{
-			"name": "Class, Support",
+			"name": "Types",
 			"scope": [
-				"entity.name",
+				"entity.name.type",
 				"support.type",
 				"support.class",
 				"support.other.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
+                "entity.other.inherited-class.python",
 				"support.type.sys-types"
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
+                // "foreground": "#a2dbff"
 			}
 		},
-		{
-			"name": "Entity Types",
+        {
+			"name": "Class, Support",
 			"scope": [
-				"support.type"
+				"support.class",
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#E8A5E4"
 			}
 		},
 		{
