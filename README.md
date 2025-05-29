@@ -1,16 +1,7 @@
 # dark-cherry-ice-cream README
 
-## Working with Markdown
+## Who dis?
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Hello there! My name is James, and I've created a new VSCode theme, heavily inspired by the wonderful folks at T3 Chat. Go and give them some love (with a cherry on top!)
 
 **Enjoy!**

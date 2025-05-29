@@ -3,11 +3,27 @@
   "displayName": "Dark Cherry Ice-Cream",
   "description": "🍒 Heavily inspired by the dark T3 Chat theme 🍒",
   "version": "0.0.1",
+  "publisher": "JamesGulland",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/james-gulland/dark-cherry-ice-cream-vscode-theme"
+  },
+  "license": "MIT",
   "engines": {
     "vscode": "^1.100.0"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "dark theme",
+    "dark cherry",
+    "dark cherry theme",
+    "dark cherry ice cream theme",
+    "T3 Chat",
+    "T3 Chat theme",
+    "James Gulland",
+    "JamesGulland"
   ],
   "contributes": {
     "themes": [
