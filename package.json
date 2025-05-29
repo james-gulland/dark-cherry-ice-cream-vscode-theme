@@ -1,7 +1,7 @@
 {
-  "name": "bangkok-at-dawn",
-  "displayName": "Bangkok at Dawn",
-  "description": "Theme for Bangkok at Dawn",
+  "name": "dark-cherry-ice-cream",
+  "displayName": "Dark Cherry Ice-Cream",
+  "description": "🍒 Heavily inspired by the dark T3 Chat theme 🍒",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.100.0"
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Bangkok at Dawn",
+        "label": "Dark Cherry Ice-Cream",
         "uiTheme": "vs-dark",
-        "path": "./themes/bangkok-at-dawn-color-theme.json"
+        "path": "./themes/dark-cherry-ice-cream.json"
       }
     ]
   }
