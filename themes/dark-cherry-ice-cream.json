@@ -38,7 +38,7 @@
         "editor.background": "#1d1921",
 		"editor.foreground": "#D2C7E1",
         "editor.lineHighlightBackground": "#362d3d80",
-        "editor.selectionBackground": "#362d3d",
+        "editor.selectionBackground": "#7a648390",
         "editor.findMatchBackground": "#7a6483",
         "editor.findMatchBorder": "#7a648390",
         "editor.findMatchHighlightBackground": "#7a648390",
