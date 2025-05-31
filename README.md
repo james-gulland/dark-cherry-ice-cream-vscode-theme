@@ -1,5 +1,9 @@
-## Who dis?
+<img src="Screenshot.png" />
 
-Hello there! My name is James, and I've created a new VSCode theme, heavily inspired by the wonderful folks at T3 Chat. Go and give them some love (with a cherry on top!)
+## Dark Cherry Ice-Cream Theme
 
-**Enjoy!**
+A clean, modern, and elegant dark cherry ice-cream theme for VSCode, heavily inspired by the wonderful folks over at T3 Chat.
+
+**🍒  Enjoy!  🍒**
+
+<img src="Screenshot-2.png" />
