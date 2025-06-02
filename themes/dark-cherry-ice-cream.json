@@ -77,7 +77,7 @@
         "editorLineNumber.foreground": "#7a6483",
         "editorLineNumber.activeForeground": "#baa4ed",
         "editorHoverWidget.background": "#362d3d",
-        "editorHoverWidget.foreground": "#baa4ed",
+        "editorHoverWidget.foreground": "#d2c7e1",
         "editorStickyScrollHover.background": "#362d3d",
         "editorStickyScroll.shadow": "#362d3d",
         "editorWidget.background": "#362d3d",
