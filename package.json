@@ -31,6 +31,11 @@
         "label": "Dark Cherry Ice-Cream",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-cherry-ice-cream.json"
+      },
+      {
+        "label": "Dark Cherry Ice-Cream Subtle",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-cherry-theme-subtle-color-theme.json"
       }
     ]
   },
